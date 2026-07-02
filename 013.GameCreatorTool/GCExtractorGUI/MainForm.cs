@@ -37,6 +37,7 @@ namespace GCExtractorGUI
                 cb.Items.Add(new ReturnToCollegeAge());
                 cb.Items.Add(new LovelyDeskmateLovelyLife());
                 cb.Items.Add(new FeiChangGuiFangSongBu());
+                cb.Items.Add(new XvnZhaoMeiMei());
                 cb.Items.Add(new ToBeYourSisterSomeday());
                 cb.Items.Add(new AYearInSeasons());
                 cb.Items.Add(new OneDay());

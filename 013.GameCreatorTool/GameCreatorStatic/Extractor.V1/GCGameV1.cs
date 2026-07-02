@@ -209,6 +209,18 @@ namespace GameCreatorStatic.Extractor.V1
     }
 
     /// <summary>
+    /// 《寻找妹妹》
+    /// </summary>
+    public class XvnZhaoMeiMei : GCExtractorV1
+    {
+        public override string Title => "寻找妹妹";
+        public override GCEntryptionFlagV1 EntryptionFlag => GCEntryptionFlagV1.Image | GCEntryptionFlagV1.Text | GCEntryptionFlagV1.Audio;
+        public override string Version => "0.9917";
+        public override string TextKey => "gc_zip_2024";
+        public override string AudioKey => "gc_zip_2024";
+    }
+
+    /// <summary>
     /// 《某天成为妹妹》
     /// </summary>
     public class ToBeYourSisterSomeday : GCExtractorV1

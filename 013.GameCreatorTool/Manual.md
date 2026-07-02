@@ -32,6 +32,7 @@ GameCreator 引擎工具套件
 &emsp;《重返大学时代》<br>
 &emsp;《同桌! 我喜欢你》<br>
 &emsp;《非常规放送部》<br>
+&emsp;《寻找妹妹》<br>
 &emsp;《某天成为妹妹》<br>
 &emsp;《落星》<br>
 &emsp;《某一年四季》<br>
