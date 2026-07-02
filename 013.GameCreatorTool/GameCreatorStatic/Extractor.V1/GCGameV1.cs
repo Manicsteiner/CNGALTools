@@ -197,6 +197,18 @@ namespace GameCreatorStatic.Extractor.V1
     }
 
     /// <summary>
+    /// 《非常规放送部》
+    /// </summary>
+    public class FeiChangGuiFangSongBu : GCExtractorV1
+    {
+        public override string Title => "非常规放送部 Mika & Luna";
+        public override GCEntryptionFlagV1 EntryptionFlag => GCEntryptionFlagV1.Image | GCEntryptionFlagV1.Text | GCEntryptionFlagV1.Audio;
+        public override string Version => "0.9917";
+        public override string TextKey => "gc_zip_2024";
+        public override string AudioKey => "gc_zip_2024";
+    }
+
+    /// <summary>
     /// 《某天成为妹妹》
     /// </summary>
     public class ToBeYourSisterSomeday : GCExtractorV1
@@ -240,5 +252,17 @@ namespace GameCreatorStatic.Extractor.V1
         public override string Title => "巴比伦:人与人之战";
         public override GCEntryptionFlagV1 EntryptionFlag => GCEntryptionFlagV1.None;       //只加密了startup.json
         public override string Version => "0.9921";
+    }
+
+    /// <summary>
+    /// 《染上你的颜色》
+    /// </summary>
+    public class YourColors : GCExtractorV1
+    {
+        public override string Title => "染上你的颜色";
+        public override GCEntryptionFlagV1 EntryptionFlag => GCEntryptionFlagV1.Image | GCEntryptionFlagV1.Text | GCEntryptionFlagV1.Audio;
+        public override string Version => "0.994";
+        public override string TextKey => "gc_zip_2024";
+        public override string AudioKey => "gc_zip_2024";
     }
 }

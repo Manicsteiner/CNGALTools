@@ -36,10 +36,12 @@ namespace GCExtractorGUI
                 cb.Items.Add(new FloainPlus());
                 cb.Items.Add(new ReturnToCollegeAge());
                 cb.Items.Add(new LovelyDeskmateLovelyLife());
+                cb.Items.Add(new FeiChangGuiFangSongBu());
                 cb.Items.Add(new ToBeYourSisterSomeday());
                 cb.Items.Add(new AYearInSeasons());
                 cb.Items.Add(new OneDay());
                 cb.Items.Add(new BaBiLun_RenYuRenZhiZhan());
+                cb.Items.Add(new YourColors());
 
                 cb.EndUpdate();
             }

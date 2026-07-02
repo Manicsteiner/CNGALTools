@@ -31,11 +31,13 @@ GameCreator 引擎工具套件
 &emsp;《暮雨流花+》<br>
 &emsp;《重返大学时代》<br>
 &emsp;《同桌! 我喜欢你》<br>
+&emsp;《非常规放送部》<br>
 &emsp;《某天成为妹妹》<br>
 &emsp;《落星》<br>
 &emsp;《某一年四季》<br>
 &emsp;《One Day》<br>
 &emsp;《巴比伦:人与人之战》<br>
+&emsp;《染上你的颜色》<br>
 ### 编译
 &emsp;&emsp;依赖库<br>
 &emsp;&emsp;&emsp;\[Nuget\] ICSharpCode.SharpZipLib<br>
