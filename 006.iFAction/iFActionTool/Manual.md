@@ -1,6 +1,10 @@
 # iFActionTool
 
-iFAction引擎工具套件
+iFAction引擎工具套件<br>
+
+## 说明
+---
+* 引擎已在2021停止更新<br>最终版为V1.2.4.0916<br>理论支持所有游戏
 
 ## 功能
 ---
@@ -14,7 +18,7 @@ iFAction引擎工具套件
 * 提取iFCon封包资源
 ### 使用
 * 按照GUI界面指引
-### 游戏支持
+### 已验证游戏
 &emsp;《荧火微光》<br>
 &emsp;《风物恋歌》<br>
 &emsp;《暮雨流花floain》<br>
