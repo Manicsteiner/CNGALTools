@@ -250,6 +250,17 @@ namespace NvlUnity.V1
         };
     }
 
+    /// <summary>
+    /// 胶囊恋人
+    /// </summary>
+    internal class CapsuleLover : NVLUnityV103
+    {
+        public override byte[] XorKey { get; } = new byte[]
+        {
+            0x8B, 0x05, 0xEA, 0xD7, 0xD7, 0x7C, 0xB6, 0x8E, 0xEF, 0x43, 0x49, 0xA1
+        };
+    }
+
     internal class DataManagerV1
     {
         private static readonly Dictionary<string, NVLUnityV1> mSGameInformation = new(32)
@@ -271,6 +282,7 @@ namespace NvlUnity.V1
             { "梦见雪花", new DreamOfTinySnow() },
             { "泡芙爱情故事", new PuffLoveStory() },
             { "高考恋爱100天 十年后的约定", new GaoKaoLove100HD() },
+            { "胶囊恋人", new CapsuleLover() },
         };
         /// <summary>
         /// 游戏信息
