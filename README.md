@@ -85,6 +85,8 @@ Chinese Galgame Reverse Engineering Project
 * [Sugar Rush工作室](./025.SugarRush/Manual.md)
 ### 026.UniversalUE
 * [通用UE](./026.UniversalUE/Manual.md)
+### 027.JveXingGames
+* [觉醒之刻](./027.JveXingGames/TheTimeofAwakening/Manual.md)
 ### 994.AleCubicSoft
 * [UndercoverAgent](./994.AleCubicSoft/UndercoverAgent/Manual.md)
 ### 995.Chatte Noire
