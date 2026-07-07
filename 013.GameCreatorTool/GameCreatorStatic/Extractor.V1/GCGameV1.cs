@@ -116,6 +116,19 @@ namespace GameCreatorStatic.Extractor.V1
     }
 
     /// <summary>
+    /// 《Mirage Episode:1》
+    /// </summary>
+    public class Mirage_Episode_1 : GCExtractorV1
+    {
+        public override string Title => "Mirage Episode:1";
+        public override GCEntryptionFlagV1 EntryptionFlag => GCEntryptionFlagV1.Image | GCEntryptionFlagV1.Text | GCEntryptionFlagV1.Audio | GCEntryptionFlagV1.Video;
+        public override string Version => "0.99131";
+        public override string TextKey => "gc_zip_2024";
+        public override string AudioKey => "gc_zip_2024";
+        public override string VideoKey => "gc_zip_2024";
+    }
+
+    /// <summary>
     /// 《在时间的尽头等你》
     /// </summary>
     public class WaitingForYouAtTheEndOfTime : GCExtractorV1
@@ -153,7 +166,6 @@ namespace GameCreatorStatic.Extractor.V1
     {
         public override string Title => "落星";
         public override GCEntryptionFlagV1 EntryptionFlag => GCEntryptionFlagV1.Image | GCEntryptionFlagV1.Text | GCEntryptionFlagV1.Audio | GCEntryptionFlagV1.Video;
-
         public override string Version => "0.9914";
         public override string TextKey => "gc_zip_2024";
         public override string AudioKey => "gc_zip_2024";

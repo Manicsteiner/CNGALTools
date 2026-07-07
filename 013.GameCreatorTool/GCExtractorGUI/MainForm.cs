@@ -29,6 +29,7 @@ namespace GCExtractorGUI
                 cb.Items.Add(new ShiinaTakisDecameron());
                 cb.Items.Add(new YourCow());
                 cb.Items.Add(new GuangShiShuangMaWeiDeBaoEn());
+                cb.Items.Add(new Mirage_Episode_1());
                 cb.Items.Add(new WaitingForYouAtTheEndOfTime());
                 cb.Items.Add(new HappySistersLife());
                 cb.Items.Add(new WindsPoem());
