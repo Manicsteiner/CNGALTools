@@ -44,6 +44,7 @@ namespace GCExtractorGUI
                 cb.Items.Add(new OneDay());
                 cb.Items.Add(new BaBiLun_RenYuRenZhiZhan());
                 cb.Items.Add(new YourColors());
+                cb.Items.Add(new ZaiJian_YouLiDiXi());
 
                 cb.EndUpdate();
             }

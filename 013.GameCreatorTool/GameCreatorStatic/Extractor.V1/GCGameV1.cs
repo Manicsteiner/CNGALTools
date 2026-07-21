@@ -289,4 +289,16 @@ namespace GameCreatorStatic.Extractor.V1
         public override string TextKey => "gc_zip_2024";
         public override string AudioKey => "gc_zip_2024";
     }
+
+    /// <summary>
+    /// 《再见犹丽迪茜》
+    /// </summary>
+    public class ZaiJian_YouLiDiXi : GCExtractorV1
+    {
+        public override string Title => "再见犹丽迪茜";
+        public override GCEntryptionFlagV1 EntryptionFlag => GCEntryptionFlagV1.Image | GCEntryptionFlagV1.Text | GCEntryptionFlagV1.Audio;
+        public override string Version => "0.994";
+        public override string TextKey => "gc_zip_2024";
+        public override string AudioKey => "gc_zip_2024";
+    }
 }
